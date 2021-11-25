@@ -1,0 +1,26 @@
+.goBackBtn {
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: bisque;
+  background-color: rgba(17, 16, 16, 0.616);
+  border: none;
+  border-radius: 3px;
+}
+
+.link {
+  margin-left: 15px;
+  display: inline-flex;
+  color: rgb(39, 93, 155);
+  text-decoration: none;
+
+  list-style: none;
+}
+
+.link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.activeLink {
+  color: rgb(117, 41, 240);
+}
